@@ -20,6 +20,7 @@
 		AD3474972349078E008864D0 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3474962349078E008864D0 /* ItemRow.swift */; };
 		AD347499234998AC008864D0 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD347498234998AC008864D0 /* ItemDetail.swift */; };
 		AD34749B2349A288008864D0 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34749A2349A288008864D0 /* OrderView.swift */; };
+		AD34749D2349A3AC008864D0 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34749C2349A3AC008864D0 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		AD3474962349078E008864D0 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		AD347498234998AC008864D0 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		AD34749A2349A288008864D0 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		AD34749C2349A3AC008864D0 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				AD3474962349078E008864D0 /* ItemRow.swift */,
 				AD347498234998AC008864D0 /* ItemDetail.swift */,
 				AD34749A2349A288008864D0 /* OrderView.swift */,
+				AD34749C2349A3AC008864D0 /* AppView.swift */,
 				AD294D0923485E640023ABF5 /* ContentView.swift */,
 				AD294D1923485EC20023ABF5 /* Helper.swift */,
 				AD294D1C23485EE20023ABF5 /* Menu.swift */,
@@ -176,6 +179,7 @@
 				AD347499234998AC008864D0 /* ItemDetail.swift in Sources */,
 				AD34749B2349A288008864D0 /* OrderView.swift in Sources */,
 				AD294D0A23485E640023ABF5 /* ContentView.swift in Sources */,
+				AD34749D2349A3AC008864D0 /* AppView.swift in Sources */,
 				AD294D1A23485EC20023ABF5 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
