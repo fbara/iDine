@@ -53,6 +53,8 @@ struct CheckoutView: View {
                 }.pickerStyle(SegmentedPickerStyle())
             }
             
+            //TODO: Add a pickup time with "Now", "Tonight", "Tomorrow Morning"
+            
             Section(header: Text("TOTAL: $\(totalPrice, specifier: "%.2f")")
                 .font(.largeTitle)
             ) {

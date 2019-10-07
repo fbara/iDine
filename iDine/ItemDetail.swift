@@ -13,6 +13,8 @@ struct ItemDetail: View {
     var item: MenuItem
     
     var body: some View {
+        //TODO: Add a 'favorite' navigation bar item & a Favorite tab to show them all
+        
         VStack {
             ZStack(alignment: .bottomTrailing) {
                 Image(item.mainImage)
@@ -26,6 +28,7 @@ struct ItemDetail: View {
             Text(item.description)
             .padding()
             
+            //TODO: Customize the button to make it look better
             Button("Order This") {
                 self.order.add(item: self.item)
             }.font(.headline)
